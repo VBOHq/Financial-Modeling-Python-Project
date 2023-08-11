@@ -19,15 +19,17 @@ Clone the repository to your local machine.
 Ensure you have the required assumptions and historical data in a format compatible with the code's input.
 Modify the assumptions and historical_data dictionaries in the .py files with your specific data.
 
-*Run the .py script:**
-The script will calculate the projected financial statements and display the results on the terminal.
+*Run the .py script and the Jupyter notebook:**
+The script will calculate the projected financial statements and display the results on the terminal and the jupyter note book will be display the results inline in jupyter notebook
 
 ## Structure
 The repository contains the following files:
 
-The IncomeStatement_and_BalanceSheet_model: The main Jupyter Notebook that utilizes the IncomeStatement, BalanceSheet, and CashFlow classes to calculate projected financial statements.
-Financial statement functions.py, and Financial  staement This file contains the IncomeStatement, BalanceSheet, and CashFlow classes, which handle the calculation of individual line items for the respective financial statements.
-Assumption_and_historical_data.txt: This file contains sample data for assumptions and historical data used for testing the code.
+The Financial Modeling notebook: The main Jupyter Notebook that utilizes the IncomeStatement, BalanceSheet, and CashFlow classes to calculate projected financial statements.
+Financial_statement_functions.py, and Financial_statement These files contain the IncomeStatement, BalanceSheet, and CashFlow functions and classes, which handle the calculation of individual line items for the respective financial statements.
+Assumption.json: This file contains sample data for assumptionsfor the model
+historical_data: Historical data used for testing the code.
+README.md: the document you are reading now.
 
 ## Customization
 Feel free to customize the assumptions and historical_data dictionaries in main.py to match your specific company's data.
