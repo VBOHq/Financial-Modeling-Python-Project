@@ -26,7 +26,7 @@ The script will calculate the projected financial statements and display the res
 The repository contains the following files:
 
 The IncomeStatement_and_BalanceSheet_model: The main Jupyter Notebook that utilizes the IncomeStatement, BalanceSheet, and CashFlow classes to calculate projected financial statements.
-Financial statement functions.py, Icome_statements.py, Balance_sheet_class.py, and the Cash_flow_class.py: This file contains the IncomeStatement, BalanceSheet, and CashFlow classes, which handle the calculation of individual line items for the respective financial statements.
+Financial statement functions.py, and Financial  staement This file contains the IncomeStatement, BalanceSheet, and CashFlow classes, which handle the calculation of individual line items for the respective financial statements.
 Assumption_and_historical_data.txt: This file contains sample data for assumptions and historical data used for testing the code.
 
 ## Customization
